@@ -62,19 +62,15 @@ The application will open in your default web browser.
 ├── app/                    # Backend code
 │   ├── main.py            # Flask application
 │   └── services/          # Business logic
-│       ├── clip_service.py
-│       └── image_service.py
+│       ├── clip_service.py    # CLIP model integration
+│       └── image_service.py   # Image processing service
+├── archive/               # Sample image dataset
+│   └── sampled_test_data/    # Test images
 ├── frontend.py            # Streamlit frontend
-├── data/                  # Dataset and indices
-├── tests/                 # Test files
-└── requirements.txt       # Python dependencies
-```
-
-## Running Tests
-
-```bash
-conda activate multimodal
-pytest tests/
+├── styles/               # Frontend styling
+│   └── main.css         # CSS styles
+├── environment.yml       # Conda environment config
+└── requirements.txt      # Python dependencies
 ```
 
 ## Assumptions
