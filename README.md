@@ -55,6 +55,7 @@ streamlit run frontend.py
 ```
 
 The application will open in your default web browser.
+Submit your query to see top k image results.
 
 ## Project Structure
 
@@ -79,11 +80,3 @@ The application will open in your default web browser.
 2. System runs on a machine with sufficient RAM for CLIP model
 3. Frontend and backend run on the same machine in development
 4. Top-K is configurable but defaults to 5 results
-
-## Accessibility Features
-
-- Screen reader compatible interface
-- Alt text generation for images
-- Keyboard navigation support
-- High contrast mode option
-- Adjustable text size
