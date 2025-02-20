@@ -62,9 +62,9 @@ Submit your query to see top k image results.
 ## Project Structure
 
 ```
-├── app/                    # Backend code
+├── app/                   # Backend code
 │   ├── main.py            # Flask application
-│   └── services/          # Business logic
+│   └── services/          # Process logic
 │       ├── clip_service.py    # CLIP model integration
 │       └── image_service.py   # Image processing service
 ├── archive/               # Sample image dataset
