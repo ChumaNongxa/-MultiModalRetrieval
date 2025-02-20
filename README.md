@@ -2,6 +2,8 @@
 
 A system that retrieves images based on natural language text descriptions using deep learning models.
 
+![Streamlit UI Screenshot](archive/images/Streamlit%20UI%20Screenshot.png)
+
 ## Features
 
 - Text-to-image retrieval using CLIP model
@@ -12,7 +14,7 @@ A system that retrieves images based on natural language text descriptions using
 
 ## System Architecture
 
-![Image Retrieval System Flow](Image%20Retrieval%20Flow.png)
+![Image Retrieval System Flow](archive/images/Image%20Retrieval%20Flow.png)
 
 ## Setup Instructions
 
