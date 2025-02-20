@@ -1,0 +1,22 @@
+:root {
+    --text-size-small: 0.8em;
+    --text-size-medium: 1em;
+    --text-size-large: 1.2em;
+}
+
+/* High contrast mode */
+.high-contrast {
+    background-color: black;
+    color: white;
+}
+
+/* Text size adjustments */
+.text-small {
+    font-size: var(--text-size-small);
+}
+.text-medium {
+    font-size: var(--text-size-medium);
+}
+.text-large {
+    font-size: var(--text-size-large);
+}

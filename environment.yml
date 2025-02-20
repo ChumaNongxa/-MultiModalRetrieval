@@ -1,0 +1,18 @@
+name: multimodal
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pytorch
+  - torchvision
+  - faiss-cpu
+  - pillow
+  - numpy
+  - pip:
+    - transformers
+    - flask
+    - streamlit
+    - requests
